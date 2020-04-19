@@ -35,7 +35,7 @@ const Background = ({ children }) => {
     document.getElementById('loader').style.display = 'none'
   }
   useEffect(() => {
-    setTimeout(showFull, 300)
+    setTimeout(showFull, 1000)
   }, [])
   return (
     <>
