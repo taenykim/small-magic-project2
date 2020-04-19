@@ -1,0 +1,33 @@
+{
+  "name": "small-magic-project2",
+  "version": "1.0.0",
+  "description": "🔮 소마법 프로젝트 (Toy Project)2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 3002",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taenykim/small-magic-project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taenykim/small-magic-project2/issues"
+  },
+  "homepage": "https://github.com/taenykim/small-magic-project2#readme",
+  "dependencies": {
+    "next": "^9.3.5",
+    "next-redux-wrapper": "^5.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
