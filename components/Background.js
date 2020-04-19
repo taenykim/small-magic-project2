@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import Header from './Header'
 
@@ -7,6 +7,14 @@ const BackgroundContainer = styled.div`
   padding-top: 32px;
   width: 100vw;
   background: #f5f6f7;
+`
+
+const Loader = styled.div`
+  position: fixed;
+  width: 100vw;
+  height: 100vw;
+  background: #f5f6f7;
+  z-index: 20;
 `
 
 const FixedGithub = styled.div`
@@ -23,8 +31,15 @@ const FixedGithub = styled.div`
 `
 
 const Background = ({ children }) => {
+  const showFull = () => {
+    document.getElementById('loader').style.display = 'none'
+  }
+  useEffect(() => {
+    setTimeout(showFull, 300)
+  }, [])
   return (
     <>
+      {/* <Loader id="loader"></Loader> */}
       <BackgroundContainer>
         <a href="https://github.com/taenykim/small-magic-project" target="_blank">
           <FixedGithub>
