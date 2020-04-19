@@ -39,7 +39,7 @@ const Background = ({ children }) => {
   }, [])
   return (
     <>
-      {/* <Loader id="loader"></Loader> */}
+      <Loader id="loader"></Loader>
       <BackgroundContainer>
         <a href="https://github.com/taenykim/small-magic-project" target="_blank">
           <FixedGithub>
