@@ -7,7 +7,7 @@
     "dev": "next -p 3002",
     "build": "next build",
     "start": "next start",
-    "deploy": "rm -rf node_modules/.cache && next build && next export"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll"
   },
   "repository": {
     "type": "git",
