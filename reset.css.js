@@ -3,39 +3,39 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 @font-face {
 	font-family: "escore1"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream1.otf) format("opentype");
+	src: url(./SCDream1.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore2"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream2.otf) format("opentype");
+	src: url(./SCDream2.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore3"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream3.otf) format("opentype");
+	src: url(./SCDream3.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore4"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream4.otf) format("opentype");
+	src: url(./SCDream4.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore5"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream5.otf) format("opentype");
+	src: url(./SCDream5.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore6"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream6.otf) format("opentype");
+	src: url(./SCDream6.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore7"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream7.otf) format("opentype");
+	src: url(./SCDream7.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore8"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream8.otf) format("opentype");
+	src: url(./SCDream8.otf) format("opentype");
 }
 @font-face {
 	font-family: "escore9"; 
-	src: url(${process.env.BACKEND_URL + '/'}/SCDream9.otf) format("opentype");
+	src: url(./SCDream9.otf) format("opentype");
 }
   
 
