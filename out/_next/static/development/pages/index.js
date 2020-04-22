@@ -3396,7 +3396,7 @@ var index = function index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Ftaeeunkim%2FDesktop%2Ftaenykim%2Fsmall-magic-project%2Fsmall-magic-project2%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************************************/
@@ -3419,5 +3419,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
