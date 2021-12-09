@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/taenykim/small-magic-project2#readme",
   "dependencies": {
-    "next": "^9.3.5",
+    "next": "^11.1.3",
     "next-redux-wrapper": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
